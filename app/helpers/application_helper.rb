@@ -1,3 +1,3 @@
 module ApplicationHelper
-  my_name = Ulysses E. Spellman
+  my_name = Ulysses E Spellman
 end
