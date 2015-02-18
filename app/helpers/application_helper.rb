@@ -1,3 +1,5 @@
 module ApplicationHelper
-  my_name = "Ulysses E Spellman"
+  def my_name
+    "Ulysses E Spellman"
+  end
 end
