@@ -13,6 +13,10 @@ group :development do
   gem 'sqlite3'
 end
 
+group :development do
+  gem "rails-erd"
+end
+
 gem 'bootstrap-sass'
 
 gem 'sass-rails', '~> 5.0'
