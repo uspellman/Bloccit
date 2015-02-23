@@ -1,11 +1,8 @@
 Rails::application.routes.draw do
-  get 'posts/index'
 
-  get 'posts/show'
+  get 'advertisement/index'
 
-  get 'posts/new'
-
-  get 'posts/edit'
+  get 'advertisement/show'
 
  resources :posts
 
