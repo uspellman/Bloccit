@@ -20,6 +20,7 @@ end
 gem 'bootstrap-sass'
 
 gem 'faker'
+gem 'devise'
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
