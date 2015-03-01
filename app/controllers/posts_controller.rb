@@ -9,6 +9,7 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
+  end
 
     def create
       @post = Post.new(params.require(:post).permit(:title, :body))
@@ -20,8 +21,6 @@ class PostsController < ApplicationController
         render :new
       end
     end
-
-  end
 
   def edit
 
