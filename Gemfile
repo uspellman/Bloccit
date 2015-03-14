@@ -21,6 +21,7 @@ gem 'bootstrap-sass'
 
 gem 'faker'
 gem 'devise'
+gem 'pundit'
 gem 'figaro', '1.0'
 
 gem 'sass-rails', '~> 5.0'
